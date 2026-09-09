@@ -1,9 +1,22 @@
-#Sum program => a,b => sum => print
+#1.Sum program => a,b => sum => print
+#  a = int(input( "Enter a: "))
+#  b = float(input ("Enter b: "))
+#  sum = a + b
+#  print("sum : ", sum)
 
-a = int(input( "Enter a: "))
-b = float(input ("Enter b: "))
 
-sum = a + b
+#2. Take price of 3 products as input, and print the total bill amount + average price.  
 
-print("sum : ", sum)
+# a = 99.5
+# b = 23.75
+# c = 16.15
+
+# sum = a+b+c
+# ave = sum/3
+# print(sum)
+# print(ave)
+
+
+
+
 
