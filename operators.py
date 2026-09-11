@@ -39,9 +39,27 @@
 
 #Conditional statements
 
-age = 24 
+# age = int(input("enter age:"))
+
+# if age >= 18:
+#     print("you are an adult") #indentation : leaving proper space and gaping
+#     print("you can drive and vote")
+# elif  age < 18:# else if  
+#     print("you can't drive or vote")
+
+# print("end of code") # this code will run irrespective to the age because it is outside the if code (separated by the gaps)
 
 
+marks = int(input("Enter your marks"))
+
+if marks >=80:
+    print("A")
+elif marks <80 and marks >= 60:
+    print("B")
+else :  # if it is the last statement, then you can write else, and you dont have to mention conditions like you did on elif.
+    print("C")
+    
+print("Congratulation!")
 
 
 

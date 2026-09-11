@@ -17,6 +17,10 @@
 # print(ave)
 
 
+#3. build a calculator that can perform +,-,*, % and ** operations:
+
+
+
 
 
 

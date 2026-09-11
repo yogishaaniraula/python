@@ -1,3 +1,5 @@
+# number guessing game : 
+
 import random
 
 attempts = 7
