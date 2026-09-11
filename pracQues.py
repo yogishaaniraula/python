@@ -20,6 +20,33 @@
 #3. build a calculator that can perform +,-,*, % and ** operations:
 
 
+a = float(input("enter a:"))
+b = float(input("enter b:"))
+op = input("Pick an operator( +, -, *, /, **, %):") #inside the bracket are options
+
+if op == '+' :
+     print(a+b)
+elif op == '-' :
+    print(a-b)
+elif op == '*' :
+    print(a*b)
+elif op == '/' :
+    print(a/b)
+elif op == '**' :
+    print(a**b)
+else :
+    print("INVALID OPERATOR")
+print("Thankyou!")
+
+
+
+
+
+
+ 
+
+
+
 
 
 
