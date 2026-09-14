@@ -20,23 +20,59 @@
 #3. build a calculator that can perform +,-,*, % and ** operations:
 
 
-a = float(input("enter a:"))
-b = float(input("enter b:"))
-op = input("Pick an operator( +, -, *, /, **, %):") #inside the bracket are options
+# a = float(input("enter a:"))
+# b = float(input("enter b:"))
+# op = input("Pick an operator( +, -, *, /, **, %):") #inside the bracket are options
 
-if op == '+' :
-     print(a+b)
-elif op == '-' :
-    print(a-b)
-elif op == '*' :
-    print(a*b)
-elif op == '/' :
-    print(a/b)
-elif op == '**' :
-    print(a**b)
-else :
-    print("INVALID OPERATOR")
-print("Thankyou!")
+# if op == '+' :
+#      print(a+b)
+# elif op == '-' :
+#     print(a-b)
+# elif op == '*' :
+#     print(a*b)
+# elif op == '/' :
+#     print(a/b)
+# elif op == '**' :
+#     print(a**b)
+# else :
+#     print("INVALID OPERATOR")
+# print("Thankyou!")
+
+
+
+#4.1 print all odd numbers from 1 to 20
+
+# for nums in range(1, 21):
+#     if nums % 2 != 0 :
+#         print(nums)
+
+#4.2 print the table of 57
+
+# i = 1
+# while i <= 10 :
+#     multiple= print(  "57 *", i ,"=",  57 * i)
+#     i = i +1
+
+    #output : 
+# 57 * 1 = 57
+# 57 * 2 = 114
+# 57 * 3 = 171
+# 57 * 4 = 228
+# 57 * 5 = 285
+# 57 * 6 = 342
+# 57 * 7 = 399
+# 57 * 8 = 456
+# 57 * 9 = 513
+# 57 * 10 = 570
+
+
+
+
+
+
+    
+  
+
 
 
 
