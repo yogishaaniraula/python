@@ -1,4 +1,5 @@
-# List
+# #List are mutable : values can be changed
+
 marks = [45, 98, 44, 85, 23]
 #print(marks)
 # print(marks, type (marks)) 
@@ -22,7 +23,6 @@ marks = [45, 98, 44, 85, 23]
 # for score in marks:
 #     print(score)
 
-#List are mutable : values can be changed
 
 # marks.append(45) # add value at the end
 # print(marks) 
