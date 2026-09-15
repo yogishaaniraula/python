@@ -1,7 +1,7 @@
 # name = "Tony Stark"
 # grade = 'B'
 
-# #string operations
+# #string operations :
 # print (name.upper()) # capitalizes
 # print (name) # same output as input
 
