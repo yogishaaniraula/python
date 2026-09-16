@@ -102,32 +102,11 @@
 # print("Thankyou")
 
 
+#5.1 Print unique roll nums :
 
+roll_numbers = [101, 105, 102, 108, 110]
+print (roll_numbers)
 
-
-
-
-
-
-
-
-
-
-
-    
-  
-
-
-
-
-
-
-
- 
-
-
-
-
-
+#5.2 
 
 
