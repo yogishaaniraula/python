@@ -104,7 +104,26 @@
 
 #5.1 Print unique roll nums :
 
-roll_numbers = [101, 105, 102, 108, 110]
-print (roll_numbers)
+# roll_numbers = [101, 105, 102, 108, 110]
+# print (roll_numbers)
 
-#5.2 Enter employee id 
+#5.2 Enter employee id in the form of a list of tuples : 
+
+employees = [
+    (101, "Alice", 50000),
+    (102, "Bob", 65000),
+    (103, "Charlie", 45000)
+]
+search_id = int(input("Enter Employee ID: "))
+found = False
+for employee in employees:
+    employee_id = employee[0]
+    if employee_id == search_id:
+        print("Employee found!")
+        print("Employee ID:", employee[0])
+        print("Employee Name:", employee[1])
+        print("Salary:", employee[2])
+    found = True
+    break
+if found == False:
+    print("Employee not found.")

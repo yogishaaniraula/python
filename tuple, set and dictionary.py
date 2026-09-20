@@ -28,13 +28,3 @@ print(marks["Physics :"])
 for key in marks :
     print(key,marks [key])
 
-
-
-
-
-
-
-
-
-
-
