@@ -109,21 +109,35 @@
 
 #5.2 Enter employee id in the form of a list of tuples : 
 
-employees = [
-    (101, "Alice", 50000),
-    (102, "Bob", 65000),
-    (103, "Charlie", 45000)
-]
-search_id = int(input("Enter Employee ID: "))
+staffs = [(101, "Alice", 50000), (102, "Bob", 65000), (103, "Charlie", 45000)] 
+
+# The main brackets [...] hold the entire database. At this outer level, every individual employee package is just one item:
+
+# staffs[0] = (101, "Alice", 50000) (The entire first employee package)
+# staffs[1] = (102, "Bob", 65000) (The entire second employee package)
+# staffs[2] = (103, "Charlie", 45000) (The entire third employee package)
+
+
+search_id= int(input("Enter Employee:"))
 found = False
-for employee in employees:
-    employee_id = employee[0]
-    if employee_id == search_id:
+
+for staff in staffs :
+    staff_id = staff[0] 
+
+    if staff_id == search_id:
         print("Employee found!")
-        print("Employee ID:", employee[0])
-        print("Employee Name:", employee[1])
-        print("Salary:", employee[2])
-    found = True
-    break
+        print("Employee ID:", staff[0])
+        print("Employee Name:", staff[1])
+        print("Employee Salary:", staff[2])
+
+        found = True 
+        break 
+
 if found == False:
     print("Employee not found.")
+    
+        
+
+
+
+
