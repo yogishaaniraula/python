@@ -1,4 +1,5 @@
-# Main logic / function define
+# Main logic / function define :
+
 # def cal_gst(price): #parameters
 #     new_price = price + price * 0.18  
 #     print(new_price)
@@ -25,14 +26,7 @@
 
 # 2. import random 
 
-import random
+# import random
 
 # print(random. random()) # generated random number ranging between 0 and 1, but not above 1. 
 # print(random. randint(4, 89)) #generatd random value between different range, which can include 4 and 89 too.
-
-
-
-
-
-
-

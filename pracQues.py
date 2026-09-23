@@ -109,7 +109,7 @@
 
 #5.2 Enter employee id in the form of a list of tuples : 
 
-staffs = [(101, "Alice", 50000), (102, "Bob", 65000), (103, "Charlie", 45000)] 
+# staffs = [(101, "Alice", 50000), (102, "Bob", 65000), (103, "Charlie", 45000)] 
 
 # The main brackets [...] hold the entire database. At this outer level, every individual employee package is just one item:
 
@@ -118,23 +118,65 @@ staffs = [(101, "Alice", 50000), (102, "Bob", 65000), (103, "Charlie", 45000)]
 # staffs[2] = (103, "Charlie", 45000) (The entire third employee package)
 
 
-search_id= int(input("Enter Employee:"))
-found = False
+# search_id= int(input("Enter Employee:"))
+# found = False
 
-for staff in staffs :
-    staff_id = staff[0] 
+# for staff in staffs :
+#     staff_id = staff[0] 
 
-    if staff_id == search_id:
-        print("Employee found!")
-        print("Employee ID:", staff[0])
-        print("Employee Name:", staff[1])
-        print("Employee Salary:", staff[2])
+#     if staff_id == search_id:
+#         print("Employee found!")
+#         print("Employee ID:", staff[0])
+#         print("Employee Name:", staff[1])
+#         print("Employee Salary:", staff[2])
 
-        found = True 
-        break 
+#         found = True 
+#         break 
 
-if found == False:
-    print("Employee not found.")
+# if found == False:
+#     print("Employee not found.")
+
+
+#6.1 Write a function to check if a number is odd or even.
+
+# num = int(input("Enter a number:"))
+
+# if num %2 != 0:
+#  print ("The given number is odd" )
+
+# elif num % 2 == 0:
+#  print("The given number is even.")
+
+# print ("Thankyou!")
+
+# def check_odd_even ( num ):
+#     if num % 2 == 0:
+#         print(num, "is even")
+#     else :
+#         print(num, "is odd")
+# print("Thankyou!")
+
+# check_odd_even(4534247)
+
+
+# 6.2 Count vowels : 
+
+def c_vowels (text) :
+    count = 0
+
+    for character in text.lower():
+        if character in "aeiou":
+            count +=1
+
+
+    return count 
+
+result = c_vowels ("Tony Stark")
+print ("Number of vowels:", result)
+
+
+
+
     
         
 
