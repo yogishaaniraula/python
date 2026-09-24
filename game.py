@@ -14,4 +14,4 @@ def play_game():
         else :
             print("Too high")
 
-play_game() 
+play_game()
