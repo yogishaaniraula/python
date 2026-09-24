@@ -168,7 +168,6 @@ def c_vowels (text) :
         if character in "aeiou":
             count +=1
 
-
     return count 
 
 result = c_vowels ("Tony Stark")
