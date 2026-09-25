@@ -1,7 +1,7 @@
 import random 
 
 def play_game():
-    lucky_num = random.randint(1,50)
+    lucky_num = random.randint(1,50) 
 
     while True :
         user_num = int(input("Guess the lucky num:"))
@@ -12,6 +12,7 @@ def play_game():
         elif user_num < lucky_num:
             print("Too Low")
         else :
-            print("Too high")
+            print("Too high") 
+print("Thankyou!")
 
-play_game()
+play_game() 
